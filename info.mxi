@@ -1,0 +1,40 @@
+﻿<macromedia-extension
+	 name="NAME HERE"
+	 version="1.0.0"
+	 type="flash command"
+	 requires-restart="true"
+	 locked="false">
+
+	<author name="Your Name Here" />
+
+	<products>
+		<product name="Flash" version="8" primary="true" />
+	</products>
+
+	<update  />
+
+	<description>
+	<![CDATA[
+	Information goes here
+	]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+	Can be found in: Commands > NAME HERE
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+	Ignore this if not needed.
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="NAME OF JSFL.jsfl" destination="$Flash/Commands/" file-type="ordinary" />
+	</files>
+
+	<signatures />
+
+</macromedia-extension>
